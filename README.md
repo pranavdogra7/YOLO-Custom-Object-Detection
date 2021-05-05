@@ -8,7 +8,7 @@ To identify heads in the image using Object Detection by YOLO. The metric used i
 To classify if head has mask/helmet or not.
 
 Model 1 (Mask Model ) : To check if person is wearing mask
-Metric Used : Cross Entropy
+Metric Used : Categorical Cross Entropy
 
 Model 2 (Helmet Model ) : To check if person is wearing helmet
-Metric Used : Cross Entropy
+Metric Used : Binary Cross Entropy
